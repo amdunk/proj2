@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /proj2/out.jar $*
+java -jar /out.jar $*
