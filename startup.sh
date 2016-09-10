@@ -1,3 +1,2 @@
 #!/bin/bash
-
-echo 123
+java -jar /proj2/out.jar $*
