@@ -4,4 +4,4 @@ ADD ./out.jar /proj2/
 ADD ./src /proj2/
 ADD startup.sh /
 RUN chmod ug+x /startup.sh
-ENTRYPOINT /startup.sh
+ENTRYPOINT ["/startup.sh"]
