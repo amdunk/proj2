@@ -2,8 +2,8 @@ package proj2;
 
 public class Program {
 	public static void main(String[] args) {
-		int[] v;
-		v = new int[15];
+		long[] v;
+		v = new long[15];
 		int i = 0;
 		for (int j = 0; j < 2; j++) {
 			for (String x : args[j].split(":")) {
